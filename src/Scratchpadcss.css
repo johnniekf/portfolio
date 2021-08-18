@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700&display=swap');
+
+/* Body - global changes */
+
+
+body{
+  --primary-color: #EF5778;
+  --black-color: #0C0C0C;
+  font-family: 'Comfortaa', cursive !important;
+  font-family: 'Noto Sans HK', sans-serif !important;
+  color: var(--black-color) !important;
+  background-color: #FAFFFD !important;
+  margin: 0rem !important;
+  padding: 0rem !important;
+}
+
+html, body, #app, #app>div {
+  min-height: 100% !important;
+}
+
+.wrapper{
+  min-height: 100% !important;
+}
+
+.test1{
+  background-color: red;
+}
+
+.test2{
+  background-color: blue;
+}
+
+.test3{
+  background-color: yellow;
+}
+
+.test4{
+  background-color: rgba(255, 0, 0, .2) !important;
+}
+
+/* Container varients */
+
+.container-main{
+  height: inherit;
+}
+
+.container-outer{
+  background-color: #FAFFFD !important;
+  margin-left: 48px;
+  padding-left: 48px;
+  border-left: 1.6px solid var(--black-color) !important;
+  border-top: 1.6px solid var(--black-color) !important;
+  border-radius: 8px 0 0 0 !important;
+}
+
+.container-inner{
+  padding-top: 2rem;
+  padding-right: 96px;
+}
+
+.wrapper{
+  min-height: 100% !important;
+  height: 100% !important;
+}
+
+/* Header */
+.navbar{
+  font-weight: 400 !important;
+  color: var(--black-color) !important;
+}
+
+.navbar-nav>li{
+  float: none !important;
+  text-align: right !important;
+}
+
+.navbar-custom{
+  display:inline-flex !important;
+  max-height: 40px !important;
+  width: 250px !important;
+}
+
+.github-link{
+  color: var(--primary-color) !important;
+}
+
+/* Main */
+
+img{
+  border: 0px solid #D6E3FF !important;
+  border-radius: 1px 1px 1px 1px;
+}
+
+@media screen and (max-width: 600px){
+  img{
+    width: 200px !important;
+    height: 245px !important;
+  }
+}
+
+.name-header{
+  background-color: var(--primary-color);
+  width:fit-content;
+  padding: 3px;
+  margin-bottom: 45px;
+  border: 0px solid #D6E3FF !important;
+  border-radius: 6px !important;
+  padding: 4px;
+}
+
+@media screen and (max-width: 570px){
+  .name-header{
+    font-size: 20px !important;
+  }
+
+  .container-inner{
+    padding-right: 50px !important;
+  }
+
+  .container-outer{
+    padding-left: 24px !important;
+  }
+}
+
+.intro-heading{
+  height: 100% !important;
+}
+
+.intro-custom{
+  display:inline;
+  padding-top: 40px;
+}
+
+img{
+  width:360.27px;
+  height: 442.08px;
+  border-radius: 2% !important;
+}
